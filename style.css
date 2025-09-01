@@ -35,8 +35,8 @@ nav a:hover {
 }
 
 .gallery-box {
-  overflow: hidden; /* ensures image doesn't overflow container */
-  border-radius: 8px; /* optional: rounded corners */
+  overflow: hidden;
+  border-radius: 8px; 
 }
 
 .gallery-img {
@@ -50,8 +50,8 @@ nav a:hover {
 
 
 .gallery-img:hover {
-  transform: scale(1.05); /* slight zoom */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* shadow on hover */
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
 
@@ -62,11 +62,10 @@ section {
 }
 
 .profile-img-wrapper {
-  background: linear-gradient(135deg, #d0eaff, #ffffff); /* subtle gradient */
+  background: linear-gradient(135deg, #d0eaff, #ffffff); 
   padding: 10px;
   border-radius: 50%;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* soft shadow */
-  width: 370px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
   height: 370px;
   display: flex;
   align-items: center;
@@ -80,10 +79,24 @@ section {
   object-fit: cover;
 }
 .profile-img-wrapper {
-  border: 5px solid #007bff; /* blue or your theme color */
+  border: 5px solid #007bff;
 }
 .profile-img-wrapper:hover {
   transform: scale(1.02);
   transition: 0.3s ease;
 }
+
+    .card-title {
+      color: #3498db;  
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+
+  
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); 
+    }
+  
 
